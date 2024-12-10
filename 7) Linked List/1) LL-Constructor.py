@@ -5,10 +5,10 @@ class Node:
 
 class LinkedList:
     def __init__(self, value):
-        new_node = Node(value)
-        self.head = new_node
-        self.tail = new_node
-        self.length = 1
+        new_node = Node(value) #--------O(1)
+        self.head = new_node #--------O(1)
+        self.tail = new_node #--------O(1)
+        self.length = 1 #--------O(1)
  
 my_linked_list = LinkedList(4)
 
@@ -26,4 +26,3 @@ print('Length:', my_linked_list.length)
     
 """
 print(my_linked_list)
-                                                                                                                    
